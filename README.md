@@ -1,5 +1,6 @@
 # terraform-packer
 This project will help you build Nginx Image using Packer & Terraform in AWS environment.
+Advantage of creating Images this way is that it is much easier to maintain those images because this is much closer to the immutable infrastructure.
 
 # Packer
 - Pre requisites - [Install packer](https://learn.hashicorp.com/tutorials/packer/getting-started-install)
@@ -14,6 +15,7 @@ This project will help you build Nginx Image using Packer & Terraform in AWS env
 > 2nd) A Security group with inbound rule port 22 open for ssh <br />
 > 3rd) Public key called 'mykey'. ** make sure to run "ssh-keygen -f mykey' <br />
 > 4th) EC2 Instance will use the image id from 'amivar.tf' <br />
+> 5th) Nginx and Docker should be installed <br />
 
 
 # To delete
