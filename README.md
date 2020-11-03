@@ -1,5 +1,11 @@
 # terraform-packer
-Packer is used to build AMI's
+Packer is used to build AMI's <br /> 
+Packer is a command line tool that can build AWS AMIs based on templates.<br /> 
+Instead of installing the software after booting up an instance, you can create an AMI with all the necessary software on <br />
+This can speed up the boot times of instances. Instead of booting up a default image that is installing a software on it <br />
+We can already boot the AMI with all the software installed on the AMI <br />
+So, you first build a customized AMI, then you boot it. <br />
+
 This project will help you build Nginx Image using Packer & Terraform in AWS environment.
 Advantage of creating Images this way is that it is much easier to maintain those images because this is much closer to the immutable infrastructure.
 
