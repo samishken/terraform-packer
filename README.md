@@ -1,4 +1,5 @@
 # terraform-packer
+Packer is used to build AMI's
 This project will help you build Nginx Image using Packer & Terraform in AWS environment.
 Advantage of creating Images this way is that it is much easier to maintain those images because this is much closer to the immutable infrastructure.
 
